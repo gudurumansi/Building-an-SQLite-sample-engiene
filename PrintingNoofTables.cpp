@@ -17,7 +17,7 @@ unsigned readVarint(std::ifstream &file) {
 }
 
 int main() {
-    std::ifstream file("sample.db", std::ios::binary);
+    std::ifstream file("CampusInfo.db", std::ios::binary);
     if (!file) {
         std::cout << "Failed to open file.\n";
         return 1;
