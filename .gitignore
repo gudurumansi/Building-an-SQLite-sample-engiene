@@ -1,0 +1,19 @@
+# Ignore Dev C++ project files
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+
+# Ignore the Dev C++ project and configuration files
+*.dev
+*.dsp
+*.dsw
+
+# Ignore build and output directories
+/build/
+/bin/
+/Debug/
+/Release/
+
