@@ -21,7 +21,7 @@ int getPageSize(const std::string &filename) {
 }
 
 int main() {
-    std::string dbFile = "sample.db"; // Path to your SQLite database file
+    std::string dbFile = "CampusInfo.db"; // Path to your SQLite database file
     int pageSize = getPageSize(dbFile);
     if (pageSize > 0)
         std::cout << "Page Size: " << pageSize << " bytes\n";
